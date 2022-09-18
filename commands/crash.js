@@ -18,6 +18,7 @@ module.exports = ({
         .addFields(
             { name: 'Crash Prediction', value: CrashRan() + CrashRan() + 'x', inline: true },
             { name: 'Possible Crashpoint', value: CrashRan() + 0.75 + 'x', inline: true },
+            { name: 'Accuracy', value: 'mad accurate〡do not trust the possible crash point, trust the crash prediction', inline: false },
                 )
         .setTimestamp()
         return message.channel.send(embed)
