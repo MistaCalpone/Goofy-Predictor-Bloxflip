@@ -16,8 +16,8 @@ module.exports = ({
         .setAuthor(message.author.username, message.author.displayAvatarURL())
         .setColor('#24ff83')
         .addFields(
-            { name: 'Crash Prediction', value: WordsRan() + CrashRan(), inline: true },
-            { name: 'Possible Crashpoint', value: CrashRan() + 0.75 + 'X', inline: true },
+            { name: 'Crash Prediction', value: CrashRan() + CrashRan() + 'x', inline: true },
+            { name: 'Possible Crashpoint', value: CrashRan() + 0.75 + 'x', inline: true },
                 )
         .setTimestamp()
         return message.channel.send(embed)
