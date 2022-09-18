@@ -1,5 +1,5 @@
 # Goofy-Predictor-Code
-A leaked Bloxflip predictor (fake) 
+A leaked fake Bloxflip predictor, do not purchase it 
 
 # How to set up
 
