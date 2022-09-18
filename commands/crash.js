@@ -17,7 +17,7 @@ module.exports = ({
         .setColor('#24ff83')
         .addFields(
             { name: 'Crash Prediction', value: WordsRan() + CrashRan(), inline: true },
-            { name: 'Possible Crashpoint', value: CrashRan() + 0.75, inline: true },
+            { name: 'Possible Crashpoint', value: CrashRan() + 0.75 + 'X', inline: true },
                 )
         .setTimestamp()
         return message.channel.send(embed)
